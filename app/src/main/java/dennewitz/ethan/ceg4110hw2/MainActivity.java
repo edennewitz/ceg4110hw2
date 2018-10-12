@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         monthButton = findViewById(R.id.monthButton);
         yearButton = findViewById(R.id.yearButton);
         analogButton = findViewById(R.id.analogButton);
-        digitalButton = findViewById(R.id.digitalButton);
+        digitalButton = findViewById(R.id.digitalButton); 
         secondButton = findViewById(R.id.secondButton);
         undoButton = findViewById(R.id.undoButton);
         redoButton = findViewById(R.id.redoButton);
