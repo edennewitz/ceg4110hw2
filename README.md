@@ -1,5 +1,5 @@
 # CEG-4110 HW2 (Clock App)
-The purpose of this application is to practice the implementation of the MVC and Command desgin patterns. This is accomplised though the the implementaion of a clock app. The app allows a user to view a clock either in an analog view or a digital view. Along with the current time the current date is also displayed to the user. Furthermore the user has the ability to change the second,minute,hour,day,month, and year of the clock and date. The user also has the ability to undo and redo any action. 
+The purpose of this application is to practice the implementation of the MVC and Command design patterns. This is accomplished though the the implementation of a clock app. The app allows a user to view a clock either in an analog view or a digital view. Along with the current time the current date is also displayed to the user. Furthermore the user has the ability to change the second,minute,hour,day,month, and year of the clock and date. The user also has the ability to undo and redo any action. 
 
 ## Deployment instructions
 This app is intended for and programmed for android devices. In order to deploy the app download the apk file,then move the apk file from the computer to the desired android device. After the file is on the device install the file and launch the app.
@@ -13,7 +13,8 @@ Once the application is running the first thing the user should do is either cli
 
 ## Project Design
 ### UI
-
+The UI for this application is almost all just buttons. Each button does one specifc task that allows the user to alter the current state of the time and/or date. The other non button UI components in this appication are the the two clock views. 
 ### Class
-
+The class structure used in this application where implmented using the MVC and command design patterns. Below is a UML diagram depicting all of the classes and how they interact with one another.
+## UML Diagram 
 ![diagram](https://user-images.githubusercontent.com/14102119/46896202-f3062200-ce49-11e8-9d87-bacaa84d5131.jpg)
